@@ -3,7 +3,7 @@
     background-color: $color-grey-dark-3;
     color: $color-grey-light-2;
     font-size: 1.6rem;
-    height: auto;
+
 
     @include respond(tab-port) {
         padding: 10rem 0 45rem 0;
