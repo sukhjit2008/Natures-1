@@ -6,7 +6,8 @@
   box-shadow: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  overflow-x: hidden; }
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
@@ -15,6 +16,7 @@ html {
       font-size: 75%; } }
 
 body {
+  overflow-x: hidden;
   box-sizing: border-box;
   padding: 3rem; }
   @media (max-width: 56.25em) {
@@ -669,7 +671,7 @@ body {
   @media (max-width: 56.25em) {
     [class^="col-"] {
       width: 100% !important;
-      margin-right: 0;
+      margin-right: 0rem;
       margin-bottom: 6rem; } }
 
 .col-1-of-2 {

@@ -45,7 +45,7 @@
 
     @include respond(tab-port) {
         width: 100% !important;
-        margin-right: 0;
+        margin-right: 0rem;
         margin-bottom: $gutter-height-small;
 
     }
