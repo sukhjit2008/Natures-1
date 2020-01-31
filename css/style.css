@@ -657,7 +657,7 @@ body {
       clear: both; }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 40rem; } }
+      max-width: 20rem; } }
 
 [class^="col-"] {
   float: left; }
@@ -748,18 +748,6 @@ body {
   z-index: 3000;
   cursor: pointer;
   box-shadow: 0px 1.5rem 6rem rgba(0, 0, 0, 0.1); }
-  @media (max-width: 56.25em) {
-    .navigation__label-button {
-      height: 7rem;
-      width: 7rem;
-      top: 3rem;
-      right: 7rem; } }
-  @media (max-width: 37.5em) {
-    .navigation__label-button {
-      height: 7rem;
-      width: 7rem;
-      top: 2.5rem;
-      right: 8.5rem; } }
 
 .navigation__icon {
   position: absolute;
@@ -801,18 +789,6 @@ body {
   z-index: 1000;
   background-image: radial-gradient(#7ed56f, #28b485);
   transition: all 0.8s 0.1s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
-  @media (max-width: 56.25em) {
-    .navigation__background {
-      height: 5.5rem;
-      width: 5.5rem;
-      top: 3.5rem;
-      right: 7.5rem; } }
-  @media (max-width: 37.5em) {
-    .navigation__background {
-      height: 7rem;
-      width: 7rem;
-      top: 2.5rem;
-      right: 8.5rem; } }
 
 .navigation__nav {
   top: 0;

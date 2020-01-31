@@ -16,19 +16,7 @@
 
         box-shadow: 0px 1.5rem 6rem rgba($color-black, .1);
 
-        @include respond(tab-port) {
-            height: 7rem;
-            width: 7rem;
-            top: 3rem;
-            right: 7rem;
-        }
 
-        @include respond(phone) {
-            height: 7rem;
-            width: 7rem;
-            top: 2.5rem;
-            right: 8.5rem;
-        }
     }
 
     &__icon {
@@ -42,7 +30,7 @@
         background-color: $color-grey-dark-3;
         position: absolute;
 
-        @include respond(tab-port) {}
+
 
         &::before {
             content: '';
@@ -80,19 +68,7 @@
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         transition: all .8s .1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 
-        @include respond(tab-port) {
-            height: 5.5rem;
-            width: 5.5rem;
-            top: 3.5rem;
-            right: 7.5rem;
-        }
 
-        @include respond(phone) {
-            height: 7rem;
-            width: 7rem;
-            top: 2.5rem;
-            right: 8.5rem;
-        }
 
         //transform: scale(80);
     }
