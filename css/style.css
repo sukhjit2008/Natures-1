@@ -647,20 +647,20 @@ body {
 
 .row {
   max-width: 114rem;
+  padding: 0 3rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
-        margin-bottom: 6rem;
-        padding: 0 3rem; } }
+        margin-bottom: 6rem; } }
     .row:not(:last-child):after {
       content: '';
       display: table;
       clear: both; }
-  @media (max-width: 56.25em) {
-    .row {
-      max-width: 10rem; } }
+    @media (max-width: 56.25em) {
+      .row:not(:last-child) {
+        max-width: 50rem; } }
 
 [class^="col-"] {
   float: left; }
@@ -669,6 +669,7 @@ body {
   @media (max-width: 56.25em) {
     [class^="col-"] {
       width: 100% !important;
+      margin-right: 0;
       margin-bottom: 6rem; } }
 
 .col-1-of-2 {
