@@ -660,7 +660,7 @@ body {
       clear: both; }
   @media (max-width: 56.25em) {
     .row {
-      max-width: 20rem; } }
+      max-width: 15rem; } }
 
 [class^="col-"] {
   float: left; }
