@@ -8,7 +8,7 @@
 
         @include respond(tab-port) {
             margin-bottom: $gutter-height-small;
-            padding: 0 1rem;
+            padding: 0 3rem;
         }
 
         &:after {
@@ -19,12 +19,10 @@
     }
 
     @include respond(tab-port) {
-        width: 50rem;
+        max-width: 40rem;
     }
 
-    @include respond(tab-port) {
-        width: 40rem;
-    }
+
 
 
 

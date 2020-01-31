@@ -650,17 +650,14 @@ body {
     @media (max-width: 56.25em) {
       .row:not(:last-child) {
         margin-bottom: 6rem;
-        padding: 0 1rem; } }
+        padding: 0 3rem; } }
     .row:not(:last-child):after {
       content: '';
       display: table;
       clear: both; }
   @media (max-width: 56.25em) {
     .row {
-      width: 50rem; } }
-  @media (max-width: 56.25em) {
-    .row {
-      width: 40rem; } }
+      max-width: 40rem; } }
 
 [class^="col-"] {
   float: left; }
