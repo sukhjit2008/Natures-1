@@ -658,9 +658,9 @@ body {
   @media (max-width: 56.25em) {
     .row {
       width: 50rem; } }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .row {
-      width: 80%; } }
+      width: 40rem; } }
 
 [class^="col-"] {
   float: left; }

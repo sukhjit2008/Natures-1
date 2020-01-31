@@ -22,9 +22,11 @@
         width: 50rem;
     }
 
-    @include respond(phone) {
-        width: 80%;
+    @include respond(tab-port) {
+        width: 40rem;
     }
+
+
 
 }
 
